@@ -1,0 +1,59 @@
+/* 
+** Typography
+** http://www.google.com/design/spec/style/typography.html
+** sp = scale-independent pixels. Like dp but scaled based on user's font size preference
+** https://stackoverflow.com/questions/2025282/difference-between-px-dp-dip-and-sp-in-android
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans|Roboto);
+
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+.display-4 {
+  font-weight: light;
+  font-size: 112sp;
+}
+
+.display-3 {
+  font-weight: normal;
+  font-size: 56sp;
+}
+
+.display-2 {
+
+}
+
+.display-1 {
+
+}
+
+.headline {
+
+}
+
+.title {
+
+}
+
+.subhead {
+
+}
+
+.body-2 {
+
+}
+
+.body-1 {
+
+}
+
+.caption {
+
+}
+
+.button {
+  font-weight: medium;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
