@@ -1,0 +1,45 @@
+/*
+** Components 
+** http://www.google.com/design/spec/components/
+*/
+
+.bottom-sheet {
+  background-color: #fff;
+  color: #000;
+
+  font-family: Roboto;
+  font-size: 1em;
+
+  .separator {
+
+  }
+}
+
+// Buttons
+
+.buttons {
+
+}
+
+.floating-action-btn {
+  &.mini {
+
+  }
+}
+
+.raised-btn {
+
+}
+
+.flat-btn {
+
+}
+
+// Cards
+.card {
+  border-radius: 2px;
+  margin: 8px;
+  padding: 16px;
+}
+
+// Chips
